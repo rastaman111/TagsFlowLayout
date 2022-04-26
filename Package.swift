@@ -16,9 +16,6 @@ let package = Package(
         .target(
             name: "TagsFlowLayout",
             dependencies: [],
-            path: "Sources"),
-        .testTarget(
-            name: "TagsFlowLayoutTests",
-            dependencies: ["TagsFlowLayout"]),
+            path: "Sources")
     ]
 )
