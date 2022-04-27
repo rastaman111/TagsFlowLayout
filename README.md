@@ -35,6 +35,10 @@ This implementation is built using a `UICollectionView` and a custom flowLayout.
 
 <div> <img src="./Center.jpg" width="250"> </div>
 
+### Inserting and Deleting tags
+
+<div> <img src="./Replay_Insert_Remove.gif" alt="Replay_Insert_Remove" width="250"> </div>
+
 # Table of contents
 
   * [Requirements](#requirements)
