@@ -21,9 +21,19 @@ This implementation is built using a `UICollectionView` and a custom flowLayout.
     <img src="https://img.shields.io/badge/swift-5.0-brightgreen.svg" alt="swift5.0">
 </a>
 
-<div>
-  <img src="./Replay.gif" alt="Replay" width="250">
-</div>
+### Horizontal Alignment:
+
+* `horizontalAlignment = .left`
+
+<div> <img src="./Left.jpg" width="250"> </div>
+
+* `horizontalAlignment = .right`
+
+<div> <img src="./Right.jpg" width="250"> </div>
+
+* `horizontalAlignment = .center`
+
+<div> <img src="./Center.jpg" width="250"> </div>
 
 # Table of contents
 
@@ -98,7 +108,7 @@ class ViewController: UICollectionViewController {
 ```swift
 class TagCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var tagView: UILabel?
+    @IBOutlet weak var tagLabel: UILabel!
     
     @IBOutlet private var maxWidthConstraint: NSLayoutConstraint! {
         didSet {
